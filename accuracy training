@@ -1,0 +1,5 @@
+fastai will always show you your model’s accuracy using only the validation set, never
+the training set. This is absolutely critical, because if you train a large enough model
+for a long enough time, it will eventually memorize the label of every item in your
+dataset! The result will not be a useful model, because what we care about is how well
+our model works on previously unseen images.
