@@ -1,0 +1,9 @@
+Overfitting is the single most important and challenging issue when training for all
+machine learning practitioners, and all algorithms. As you will see, it is easy to create
+a model that does a great job at making predictions on the exact data it has been
+trained on, but it is much harder to make accurate predictions on data the model has
+never seen before. And of course, this is the data that will matter in practice. For
+instance, if you create a handwritten digit classifier (as we will soon!) and use it to
+recognize numbers written on checks, then you are never going to see any of the
+numbers that the model was trained on—every check will have slightly different var‐
+iations of writing to deal with.
